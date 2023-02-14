@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{4210137a-35b9-4ae5-a252-a22b55ca4db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{5008431a-f36a-4d9c-8c3d-ad03aa0ce031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Skybox">
+      <UniqueIdentifier>{6f314a3d-c758-444d-b633-9cd74c9fc8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models\Airplane">
+      <UniqueIdentifier>{e8c2907e-fca5-446b-978c-1099d8bdad22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models\Teapot">
+      <UniqueIdentifier>{6b0b03f6-2c79-4a85-889f-d3e3a8d3d9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models\Gear">
+      <UniqueIdentifier>{fea9e1fe-cfb2-4028-9a1f-06ddd0e74758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models\Lightbulb">
+      <UniqueIdentifier>{dc4ca6c5-f17d-4ef9-a4a6-e858622eb7d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RealTimeAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IRotatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITranslatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="blinnPhongFragment.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="blinnPhongVertex.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="fresnel.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="fresnel.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="skybox.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="skybox.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="chromatic.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="chromatic.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="reflection.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="refraction.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="textures.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="textures.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\Gear2.obj">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_BaseColor.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Diffuse.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Glossiness.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Metallic.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Normal.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Roughness.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\textures\Gear_2_Specular.png">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Gear\Gear2.mtl">
+      <Filter>Resource Files\Models\Gear</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Lightbulb\LightBulb.mtl">
+      <Filter>Resource Files\Models\Lightbulb</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Lightbulb\LightBulb.obj">
+      <Filter>Resource Files\Models\Lightbulb</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Teapot\teapot.mtl">
+      <Filter>Resource Files\Models\Teapot</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Teapot\teapot.obj">
+      <Filter>Resource Files\Models\Teapot</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Airplane\textures\piper_bump.jpg">
+      <Filter>Resource Files\Models\Airplane</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Airplane\textures\piper_diffuse.jpg">
+      <Filter>Resource Files\Models\Airplane</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Airplane\piper_pa18.mtl">
+      <Filter>Resource Files\Models\Airplane</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Airplane\piper_pa18.obj">
+      <Filter>Resource Files\Models\Airplane</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Models\Airplane\textures\piper_refl.jpg">
+      <Filter>Resource Files\Models\Airplane</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="front.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="left.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="right.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="top.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="back.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+    <Image Include="bottom.jpg">
+      <Filter>Resource Files\Skybox</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
